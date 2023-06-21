@@ -57,3 +57,15 @@ console.log(carName)
 // snakecase eg. fist_name
 // all caps snakecase eg. FIRST_NAME
 // kebabcase eg first-name
+ let trustMe;
+ undefined;
+console.log(trustMe)
+
+// variable scopes
+let num1 = 5;
+let num2 = 10;
+if (num1>num2) {
+    console.log("num1 is greator than num2")
+}else {
+    console.log("num2 is greator than num1") 
+}
