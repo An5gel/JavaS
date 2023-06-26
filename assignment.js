@@ -28,23 +28,29 @@ console.log(angel + " but " + hall )
 let claire = "\'Claire is Tasha's friend, right?\'";
 console.log(claire)
 
+//constant variables can be added onto, deleted but cant be reassigned 
 const herObject = {boyName: "Keith",height: "5.5ft"};
 console.log(herObject)
-herObject.class = "java"
-herObject.size = "medium"
+herObject.class = "java";
+herObject.size = "medium";
 console.log(herObject)
 console.log(delete herObject.height)
+console.log(herObject)
 
+//constant variable that are frozen don't change 
 const hisObject =Object.freeze({dogName: "Rocky",character: "mature"});
 console.log(hisObject)
-hisObject.class = "java"
-hisObject.size = "medium"
+hisObject.class = "java";
+hisObject.size = "medium";
 console.log(hisObject)
 console.log(delete hisObject.character)
+console.log(hisObject)
 
+// this is an object;can be added onto
 var ourObject = {house: "bungalow",time:"8 years old"};
 console.log(ourObject)
-ourObject.size = "big"
-ourObject.city = "Chicago"
+ourObject.size = "big";
+ourObject.city = "Chicago";
 console.log(ourObject)
 console.log(delete ourObject.size)
+console.log(ourObject)
