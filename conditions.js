@@ -129,6 +129,9 @@ switch(new Date().getDay()){
     case 3:
         console.log("wednesday");
         break;
+    case 4:
+        console.log("thursday");
+        break;
     default:
          console.log("please enter a valid day")
 }

@@ -74,7 +74,7 @@ switch(house){
 let answer = "yes";
 switch(answer){
     case "great":
-        console.log("yes");
+        console.log("really");
         break;
     case "ok":
         console.log("yes");
@@ -171,3 +171,21 @@ switch(runners){
      default:
          console.log("Sorry, we dont have those")
  }}
+
+ let color1  = ["blue" , "yellow","red","indigo","peach"];
+ switch(color1 [3]){
+    case "blue":
+        console.log("love");
+        break;
+    case "yellow":
+        console.log("energy");
+       break;
+    case "red":
+        console.log("brotherhood");
+        break;
+    case "indigo":
+        console.log("like the rainbow?");
+        break;
+     default:
+         console.log("Sorry, we dont have those")
+ }
