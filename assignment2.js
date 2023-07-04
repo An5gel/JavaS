@@ -23,7 +23,7 @@ if (time > 5){
 
 //3. if when expression is false
 let color ="Skyblue";
-if (color = "red"){
+if (color == "red"){
     console.log("Peace")
 }else{
     console.log("Danger")
@@ -39,7 +39,7 @@ if (cars < 3){
 
 //5.
 let favouriteCar = "Landrover"
-if (favouriteCar > "Landrover"){
+if (favouriteCar != "Landrover"){
     console.log("NO")
 }else if(favouriteCar == "Landrover"){
     console.log("YES")
@@ -153,6 +153,7 @@ switch(runners){
 }
 
 //.A switch case for arrays
+//1.we can print out by looping
  let colors  = ["blue" , "yellow","red","indigo","peach"];
  for(let angel of colors){
  switch(angel){
@@ -172,6 +173,7 @@ switch(runners){
          console.log("Sorry, we dont have those")
  }}
 
+ // or.calling out the array's indexes 
  let color1  = ["blue" , "yellow","red","indigo","peach"];
  switch(color1 [3]){
     case "blue":

@@ -7,7 +7,7 @@
 //  *const
 //  *const.frozen
 //   *object
-// 5b.add 2 properties to each objct
+// 5b.add 2 properties to each object
 // 5c. delete one property from each
 
 // ANSWERS
@@ -62,6 +62,7 @@ ourObject.size = "big";
 ourObject.city = "Chicago";
 console.log(ourObject)
 //DELETING ONE PROPERTIES
+
 console.log(delete ourObject.size)
 console.log(ourObject)
 
