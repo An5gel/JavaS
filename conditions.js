@@ -28,7 +28,7 @@ if (age > 18){
 // condition ? printed statement if condition is true:printed statement if condition is false
 let cloudy = "carry your jacket"
 let shiny = "wear light clothes"
-console.log(weather = "cloudy"? cloudy:shiny)
+console.log(weather = "shining"? cloudy:shiny)
 
 //Switch statement or switch case
 //EXAMPLES
